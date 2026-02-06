@@ -3,8 +3,8 @@
 ## Funcionalidades
 
 - Centralização Automática: Cálculos precisos para desenhos técnicos (vistas essenciais e isométricas).
-- Vistas Essenciais: Cálculo realizado considerando as três vistas principais com espaçamento padrão de 20mm entre elas.
-- Perspectiva Isométrica Além da distância das margens, o app indica as posições corretas dos pontos de conexão (A, B, C e D) através de cálculos trigonométricos.
+- Vistas Essenciais: Cálculo realizado considerando as três vistas principais com espaçamento padrão de 20mm entre elas, mostrando a distancia da margem que deve ser considerada para cada lado.
+- Perspectiva Isométrica Além da distância das margens, o app indica as posições corretas dos pontos de conexão (A, B, C e D) através de cálculos trigonométricos e também mostrando a distancia da margem que deve ser considerada para cada lado.
 - Interface Intuitiva: Desenvolvido para facilitar o fluxo de trabalho do estudante ou profissional.
 
 ## Como usar
