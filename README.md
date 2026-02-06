@@ -1,6 +1,4 @@
-# app-centralizacao-senai
-
->   NOTA: Este é um projeto independente para fins de aprendizagem. O uso da marca SENAI é meramente ilustrativo e não representa parceria, vínculo ou produto oficial da instituição.
+# app-centralizacao-desenho-tecnico
 
 ## Funcionalidades
 
@@ -30,5 +28,5 @@
 
 <div align="center">
 <img width="576" height="988" alt="Captura de tela 2026-02-05 195550" src="https://github.com/user-attachments/assets/61ae0001-b3cb-4c7e-9a9a-82a4bd6f7246" />
-<img width="567" height="983" alt="Captura de tela 2026-02-05 195616" src="https://github.com/user-attachments/assets/59540a0c-b6b6-415a-89db-aff4fd8c3dd4" />
+<img width="577" height="1000" alt="Captura de tela 2026-02-06 180221" src="https://github.com/user-attachments/assets/e0330105-94f9-4b57-a6be-adf50f8be903" />
 </div>
