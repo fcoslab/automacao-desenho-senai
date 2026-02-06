@@ -1,6 +1,4 @@
-# app-centralizacao-senai
-
->   AVISO: Este é um projeto independente para fins de aprendizagem. O uso da marca SENAI é meramente ilustrativo e não representa parceria, vínculo ou produto oficial da instituição.
+# app-centralizacao-desenho-tecnico
 
 ## Funcionalidades
 
@@ -11,9 +9,15 @@
 
 ## Como usar
 
-1. Instale o arquivo "Senaio V2.Apk" na seção "Release" e abra o aplicativo.
+1. Instalação:
+    - Acesse a seção **Releases**.
+
+    - Clique no arquivo **automacao-desenho-tecnico-v1.0.0.apk** dentro da lista de "Assets".
+
+    - No Android, autorize a instalação de fontes desconhecidas para concluir.
+
 2. Insira as especificações da peça (dimensões) e as medidas úteis da folha (área interna das margens), tudo em milímetros.
-3. Clique em Calcular para gerar os resultados instantaneamente.
+3. Clique em Calcular para gerar os resultados instantaneamente (em mm).
 
 ## Tecnologias utilizadas
 
@@ -23,6 +27,6 @@
 ## Capturas de Tela
 
 <div align="center">
-  <img width="300" alt="Captura de tela 1" src="https://github.com/user-attachments/assets/22356668-e64c-4ad9-bb72-7b83906342d8" />
-  <img width="300" alt="Captura de tela 2" src="https://github.com/user-attachments/assets/2fab1d6f-ffc9-46d4-bf2b-341a6ecd0a43" />
+<img width="576" height="988" alt="Captura de tela 2026-02-05 195550" src="https://github.com/user-attachments/assets/61ae0001-b3cb-4c7e-9a9a-82a4bd6f7246" />
+<img width="577" height="1000" alt="Captura de tela 2026-02-06 180221" src="https://github.com/user-attachments/assets/e0330105-94f9-4b57-a6be-adf50f8be903" />
 </div>
