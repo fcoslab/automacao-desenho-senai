@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=3 uid="uid://bhvqbsx0taupc"]
 
-[ext_resource type="Script" path="res://Node2D.gd" id="1_depwf"]
-[ext_resource type="Texture2D" uid="uid://6hkcuglpnyke" path="res://images/Tecnologia-scaled.jpg" id="2_cpix6"]
-[ext_resource type="Texture2D" uid="uid://dvap2mao84ox4" path="res://images/A.png" id="3_3mwmg"]
-[ext_resource type="LabelSettings" uid="uid://cno5duv54ojy6" path="res://fonts/title_label_settings.tres" id="5_6wnfa"]
-[ext_resource type="Texture2D" uid="uid://cy4wp6c25mrfh" path="res://images/Back Button.png" id="7_micrw"]
+[ext_resource type="Script" path="res://p_isometrica.gd" id="1_fjo6m"]
+[ext_resource type="Texture2D" uid="uid://6hkcuglpnyke" path="res://images/Tecnologia-scaled.jpg" id="2_pe8nv"]
+[ext_resource type="Texture2D" uid="uid://dvap2mao84ox4" path="res://images/A.png" id="3_7go26"]
+[ext_resource type="LabelSettings" uid="uid://cno5duv54ojy6" path="res://fonts/title_label_settings.tres" id="4_euxlp"]
+[ext_resource type="Texture2D" uid="uid://cy4wp6c25mrfh" path="res://images/Back Button.png" id="5_gojs7"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_u8bab"]
 font_size = 30
@@ -17,17 +17,17 @@ shadow_size = 0
 
 [node name="vista isométrica" type="Node2D"]
 position = Vector2(264, 527)
-script = ExtResource("1_depwf")
+script = ExtResource("1_fjo6m")
 
 [node name="Tecnologia-scaled" type="Sprite2D" parent="."]
 position = Vector2(55.5, 24)
 scale = Vector2(0.248047, 0.644405)
-texture = ExtResource("2_cpix6")
+texture = ExtResource("2_pe8nv")
 
 [node name="DesignSemNome(22)" type="Sprite2D" parent="."]
 position = Vector2(58, 30)
 scale = Vector2(0.385, 0.385)
-texture = ExtResource("3_3mwmg")
+texture = ExtResource("3_7go26")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
@@ -96,7 +96,7 @@ offset_top = 4.0
 offset_right = 303.0
 offset_bottom = -8.0
 text = "Largura da peça"
-label_settings = ExtResource("5_6wnfa")
+label_settings = ExtResource("4_euxlp")
 metadata/_edit_use_anchors_ = true
 
 [node name="LineEditProfund" type="LineEdit" parent="Control"]
@@ -130,7 +130,7 @@ offset_right = 303.0
 offset_bottom = -0.00100136
 text = "Profundidade da 
 peça"
-label_settings = ExtResource("5_6wnfa")
+label_settings = ExtResource("4_euxlp")
 metadata/_edit_use_anchors_ = true
 
 [node name="LineEditAlturaPeça" type="LineEdit" parent="Control"]
@@ -162,7 +162,7 @@ offset_top = 5.0
 offset_right = 303.0
 offset_bottom = -0.00100136
 text = "Altura da peça"
-label_settings = ExtResource("5_6wnfa")
+label_settings = ExtResource("4_euxlp")
 metadata/_edit_use_anchors_ = true
 
 [node name="LineEditVertical" type="LineEdit" parent="Control"]
@@ -196,7 +196,7 @@ offset_right = 249.508
 offset_bottom = 0.00899887
 text = "Comprim. vertical da
 folha"
-label_settings = ExtResource("5_6wnfa")
+label_settings = ExtResource("4_euxlp")
 metadata/_edit_use_anchors_ = true
 
 [node name="LineEditHorizontal" type="LineEdit" parent="Control"]
@@ -230,7 +230,7 @@ offset_right = 291.311
 offset_bottom = -0.0139999
 text = "Comprim. horizontal
 da folha"
-label_settings = ExtResource("5_6wnfa")
+label_settings = ExtResource("4_euxlp")
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
@@ -264,7 +264,7 @@ offset_top = -0.00799996
 offset_right = 293.544
 offset_bottom = -0.00400162
 text = "Escala (x : 1)"
-label_settings = ExtResource("5_6wnfa")
+label_settings = ExtResource("4_euxlp")
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
@@ -293,7 +293,7 @@ offset_top = -31.0
 offset_right = 108.0
 offset_bottom = -8.0
 text = "Margem vertical"
-label_settings = ExtResource("5_6wnfa")
+label_settings = ExtResource("4_euxlp")
 metadata/_edit_use_anchors_ = true
 
 [node name="LineEditresulHorizont" type="LineEdit" parent="Control"]
@@ -323,7 +323,7 @@ offset_right = -0.019722
 offset_bottom = -15.123
 text = "Margem
 Horizontal"
-label_settings = ExtResource("5_6wnfa")
+label_settings = ExtResource("4_euxlp")
 horizontal_alignment = 1
 metadata/_edit_use_anchors_ = true
 
@@ -444,7 +444,7 @@ offset_top = -525.0
 offset_right = 127.0
 offset_bottom = -261.0
 scale = Vector2(0.275, 0.275)
-icon = ExtResource("7_micrw")
+icon = ExtResource("5_gojs7")
 flat = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
