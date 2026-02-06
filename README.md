@@ -19,7 +19,7 @@
   - No Android, autorize a instalação de fontes desconhecidas para concluir.
 
 2. Insira as especificações da peça (dimensões) e as medidas úteis da folha (área interna das margens), tudo em milímetros.
-3. Clique em Calcular para gerar os resultados instantaneamente.
+3. Clique em Calcular para gerar os resultados instantaneamente (em mm).
 
 ## Tecnologias utilizadas
 
