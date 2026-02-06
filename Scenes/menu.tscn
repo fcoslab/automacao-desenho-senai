@@ -1,8 +1,8 @@
 [gd_scene load_steps=11 format=3 uid="uid://bw7uvd0uhfk7b"]
 
 [ext_resource type="Script" path="res://Scenes/menu.gd" id="1_su5sq"]
-[ext_resource type="Texture2D" uid="uid://cxche0nijbm4b" path="res://images/Captura de tela 2024-07-14 110239.png" id="1_wnrqf"]
 [ext_resource type="Texture2D" uid="uid://b7xj6ika3b1et" path="res://images/Design sem nome (21).png" id="2_h5xmb"]
+[ext_resource type="Texture2D" uid="uid://oyt8iwve62ns" path="res://images/background_home.png" id="2_nwm6k"]
 [ext_resource type="Script" path="res://Scenes/effect.gd" id="3_arfox"]
 [ext_resource type="Shader" path="res://Scenes/menu.gdshader" id="3_ibi6l"]
 [ext_resource type="Script" path="res://Scenes/effects2.gd" id="4_yquic"]
@@ -55,7 +55,7 @@ script = ExtResource("1_su5sq")
 [node name="CapturaDeTela2024-07-14110239" type="Sprite2D" parent="."]
 position = Vector2(611, 304)
 scale = Vector2(0.493386, 0.79)
-texture = ExtResource("1_wnrqf")
+texture = ExtResource("2_nwm6k")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(642, 296)
